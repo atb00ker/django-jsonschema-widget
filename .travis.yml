@@ -27,7 +27,7 @@ before_install:
   - ./runflake8
   - ./runisort
   - npm install -g jslint
-  - jslint jsonschema_widget/static/js/*.js
+  - jslint jsonschema_widget/static/django-jsonschema-widget/js/*.js
 
 install:
   - pip install $DJANGO
